@@ -25,13 +25,13 @@ const TextInputInput = (props: TextInputInputProps) => {
   );
 };
 
-TextInputRoot.displayName = "TextInput.Input";
+TextInputInput.displayName = "TextInput.Input";
 
 const TextInputIcon = (props: TextInputIconProps) => {
   return <Slot className="w-6 h-6 text-gray-400">{props.children}</Slot>;
 };
 
-TextInputRoot.displayName = "TextInput.Input";
+TextInputIcon.displayName = "TextInput.Icon";
 
 export const TextInput = {
   Root: TextInputRoot,
